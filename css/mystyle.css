@@ -1,0 +1,110 @@
+/* ____________________________________ Page Styles __________________________*/
+
+
+.navbar .navbar-default .nav li a {
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	letter-spacing: 2px;
+	margin-right: 4px;
+	opacity: 0.9%;
+}
+.navbar .navbar-default .navbar-fixed-top {
+   background-color: transparent;
+   background: transparent;
+	 opacity: 0.9%;
+	 transition: all 0.4s;
+  }
+	.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+	}
+
+/* _____________Header & Video Container, Video_______________________________*/
+.header-container{
+	width: 100%;
+	height: 900px;
+	border-left: none;
+	border-right: none;
+
+	padding: 20px;
+}
+.space-left {
+	padding-left: 60px;
+}
+.video-container{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	Width: 100%;
+	overflow: hidden;
+}
+video{
+	position: absolute;
+	z-index: -1;
+	opacity: 0.78;
+	width: 100%;
+}
+.btn .remove_button_css {
+  outline: none;
+  padding: 5px;
+  border: 0px;
+  box-sizing: none;
+  background-color: transparent;
+}
+.btn .btn-default{
+		text-align: center;
+		transition: all 0.4s;
+		background: url('https://www.airbnb.fr');
+}
+
+/* _____________           h3               ________________________________*/
+.intro-text{
+	color: #fff;
+	z-index: 1;
+	text-align: center;
+	text-decoration-style: wavy;
+	font-size: 60px;
+	font-weight: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	padding: 10px;
+	letter-spacing: 2px;
+  font-family: Circular Air Bold remote,sans-serif;
+}
+
+.intro-heading{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: normal;
+	font-family: Circular Air Bold remote,sans-serif;
+}
+.btn .btn-secondary {
+    font-size: 24px;
+		width: 200px;
+    background-position: center;
+}
+.play{
+	color: grey;
+}
+/* _____________/ Header & Video Container, Video_____________________________*/
+
+/* ____________________________________________________________ footer________*/
+footer {
+  padding: 25px 0;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* ___________________________________________________________/ footer________*/
